@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "node pre-render.js",
+    "pre-render": "node pre-render.js",
+    "build": "react-scripts build && node pre-render.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
